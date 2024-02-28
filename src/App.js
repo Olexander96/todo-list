@@ -6,9 +6,9 @@ import "./App.css";
 
 const App = () => {
   const [tasks, setTasks] = useState([
-    { text: "Создание курса - 1 час", id: "t1" },
-    { text: "Разминка 15 мин", id: "t2" },
-    { text: "Создание курса - 1 час", id: "t3" },
+    { text: "Створення курсу - 1 год", id: "t1" },
+    { text: "Розминка 15 хв", id: "t2" },
+    { text: "Створення курсу - 2 год", id: "t3" },
   ]);
 
   const addTaskHandler = (inputText) => {
